@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+<style> 
+	.bodyclass{
+        display: flex;
+        justify-content: center;
+    }
+        
+    .username1{
+        font-size: 14pt;
+        font-family: fantasy;
+        font-weight: 300;
+    }
+    
+    .username2{
+        font-size: 14pt;
+        font-family: fantasy;
+        font-weight: 300;
+    }
+    
+    .button{
+        margin-top: 10px;
+        font-size: 12pt;
+        font-family: cursive;
+        background-color: aquamarine;
+    }
+</style>
+</head>
+<body class = "bodyclass">
+    <form action="login.php" method="post">
+        <label class="username1" for="username">Login:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label class="username2" for="password">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input class="button" type="submit" value="Submit">
+    </form>
+</body>
+</html>
