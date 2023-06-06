@@ -1,0 +1,36 @@
+.quiz
+{
+    font-size: 18pt;
+    padding: 3px;
+    color: black;
+    font-family: monospace;
+}
+
+.next
+{
+    background-color: orange;
+    font-size: 18pt;
+    font-family: monospace;
+    margin-top: 10px;
+}
+
+label{margin-right: 15px;}
+
+input[type="radio"] {
+    appearance: none;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid black;
+    transition: 0.2s all linear;
+    outline: none;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+input[type="radio"]:checked {
+    border: 6px solid black;
+}
+
+
